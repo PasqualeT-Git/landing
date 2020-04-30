@@ -1,0 +1,32 @@
+.card {
+  box-shadow: 3px 4px 13px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+}
+
+.card-single {
+  background-color: whitesmoke;
+  width: 24vw;
+  height: 320px;
+  max-width: 300px;
+  position: relative;
+}
+
+.card-single img {
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .card {
+    display: flex;
+    width: 100%;
+  }
+
+  .card-single {
+    margin: ;
+  }
+}

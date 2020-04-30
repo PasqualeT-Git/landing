@@ -1,0 +1,38 @@
+.banner {
+  margin: 20px auto;
+  width: 90vw;
+  max-width: 1200px;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.banner h1 {
+  position: absolute;
+  width: 50vmax;
+  top: 90px;
+  left: 439px;
+}
+
+#line-1 {
+  position: absolute;
+  width: 50vmax;
+  top: 185px;
+  left: 418px;
+}
+
+#line-2 {
+  position: absolute;
+  width: 60vmax;
+  top: 230px;
+  left: 485px;
+}
+
+@media only screen and (max-width: 1220px) {
+
+}
+
+
+@media only screen and (max-width: 960px) {
+
+}
